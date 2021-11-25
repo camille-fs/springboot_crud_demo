@@ -1,0 +1,21 @@
+# API
+server.servlet.contextPath: /api/
+
+info:
+  app:
+    nom: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'
+
+spring:
+  # Database
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_db
+    username: useradm
+    password: useradmmdp
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  # LOGS
+  jpa:
+    show-sql: true
+    properties.hibernate.format_sql: true

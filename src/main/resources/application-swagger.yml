@@ -1,0 +1,4 @@
+swagger:
+  title: "Demo - Spring Boot - CRUD"
+  description: "Démonstration - Spring Boot - CRUD"
+  version: "v1"
